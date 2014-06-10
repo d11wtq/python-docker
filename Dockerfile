@@ -9,5 +9,5 @@ RUN cd /tmp;                                                  \
     sudo chown default: *.tar.gz;                             \
     tar xvzf *.tar.gz; rm -f *.tar.gz;                        \
     cd pyenv*;                                                \
-    ./plugins/python-build/bin/python-build 2.7.7 /usr/local; \
+    ./plugins/python-build/bin/python-build 3.4.1 /usr/local; \
     cd; rm -rf /tmp/pyenv*
